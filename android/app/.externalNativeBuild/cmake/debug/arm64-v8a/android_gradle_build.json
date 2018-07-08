@@ -1,0 +1,47 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/guiohm/Android/projects/alternophone/android/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/guiohm/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/guiohm/Android/projects/alternophone/android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"PlayerExample-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "PlayerExample",
+			"buildCommand" : "/Users/guiohm/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/guiohm/Android/projects/alternophone/android/app/.externalNativeBuild/cmake/debug/arm64-v8a --target PlayerExample",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/guiohm/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/guiohm/Library/Android/sdk/ndk-bundle/sysroot  -DPlayerExample_EXPORTS -I../../../../src/main/cpp -I/Users/guiohm/Android/superpowered/Superpowered -isystem /Users/guiohm/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/guiohm/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/guiohm/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/guiohm/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/Users/guiohm/Android/superpowered/Superpowered -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/guiohm/Android/projects/alternophone/android/app/src/main/cpp/PlayerExample.cpp",
+					"workingDirectory" : "/Users/guiohm/Android/projects/alternophone/android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/guiohm/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/guiohm/Library/Android/sdk/ndk-bundle/sysroot  -DPlayerExample_EXPORTS -I../../../../src/main/cpp -I/Users/guiohm/Android/superpowered/Superpowered -isystem /Users/guiohm/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/guiohm/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/guiohm/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/guiohm/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fsigned-char -I/Users/guiohm/Android/superpowered/Superpowered -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/guiohm/Android/superpowered/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
+					"workingDirectory" : "/Users/guiohm/Android/projects/alternophone/android/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/Users/guiohm/Android/projects/alternophone/build/app/intermediates/cmake/debug/obj/arm64-v8a/libPlayerExample.so",
+			"toolchain" : "6982574690058420697"
+		}
+	},
+	"toolchains" : 
+	{
+		"6982574690058420697" : 
+		{
+			"cCompilerExecutable" : "/Users/guiohm/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/guiohm/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

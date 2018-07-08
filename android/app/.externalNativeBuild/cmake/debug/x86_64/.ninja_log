@@ -1,0 +1,4 @@
+# ninja log v5
+1	172	0	CMakeFiles/PlayerExample.dir/Users/guiohm/Android/superpowered/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp.o	a73993d553288e26
+0	256	0	CMakeFiles/PlayerExample.dir/src/main/cpp/PlayerExample.cpp.o	d77dc8a923c1c7db
+257	436	0	/Users/guiohm/Android/projects/alternophone/build/app/intermediates/cmake/debug/obj/x86_64/libPlayerExample.so	145c9dc04788f5dd

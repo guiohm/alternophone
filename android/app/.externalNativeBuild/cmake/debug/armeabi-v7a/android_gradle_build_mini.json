@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/guiohm/Android/projects/alternophone/android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/guiohm/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/guiohm/Android/projects/alternophone/android/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "PlayerExample-Debug-armeabi-v7a": {
+      "artifactName": "PlayerExample",
+      "buildCommand": "/Users/guiohm/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/guiohm/Android/projects/alternophone/android/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target PlayerExample",
+      "abi": "armeabi-v7a",
+      "output": "/Users/guiohm/Android/projects/alternophone/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libPlayerExample.so"
+    }
+  }
+}
